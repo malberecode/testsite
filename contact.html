@@ -1,0 +1,222 @@
+<?php include ('connect.php');?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<title> Визитка </title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="assets/images/avatar.jpg" alt="">
+			<span class="title"> Алексей </span>
+			<span class="tagline">Ведущий специалист<br>
+				<a href="">flintmail@yandex.ru</a></span>
+		</h1>
+	</div>
+
+</header>
+
+<main id="main">
+
+	<div class="container">
+		
+		<div class="row section topspace">
+			<div class="col-md-12">
+				<p class="lead text-center text-muted">Тут какой-то текст, но мне лень думать что писать. Тут какой-то текст, но мне лень думать что писать.</p>
+			</div>
+		</div> 
+		
+		<div class="row section featured topspace">
+			<h2 class="section-title"><span>Услуги</span></h2>
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Текст</h3>
+					<p>Тут какой-то текст, но мне лень думать что писать.</p>
+					<p class="text-center"><a href="" class="btn btn-action">Далее</a></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Текст</h3>
+					<p>Тут какой-то текст, но мне лень думать что писать.</p>
+					<p class="text-center"><a href="" class="btn btn-action">Далее</a></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Текст</h3>
+					<p>Тут какой-то текст, но мне лень думать что писать.</p>
+					<p class="text-center"><a href="" class="btn btn-action">Далее</a></p>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Текст</h3>
+					<p>Тут какой-то текст, но мне лень думать что писать.</p>
+					<p class="text-center"><a href="" class="btn btn-action">Далее</a></p>
+				</div>
+			</div>
+		</div> 
+	
+		<div class="row section recentworks topspace">
+			
+			<h2 class="section-title"><span>Последние работы</span></h2>
+			
+			<div class="thumbnails recentworks row">
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">Детали &rarr;</span></span>
+						</span>
+						<span class="title">Что я могу</span>
+					</a>
+					<h4></h4>
+					<p></p>
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">Детали &rarr;</span></span>
+						</span>
+						<span class="title">Это я тоже могу</span>
+					</a>
+					<h4></h4>
+					<p></p>
+				</div>
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">Детали &rarr;</span></span>
+						</span>
+						<span class="title">И это я тоже могу</span>
+					</a>
+					<h4></h4>
+					<p></p>
+				</div>
+
+			 </div>
+
+            <fieldset class="btn">
+                <legend>Contact Form</legend>
+                <form name="frmContact" method="post" action="contact.php">
+                    <p>
+                        <label for="Name">Name </label>
+                        <input type="text" name="txtName" id="txtName">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="txtEmail" id="txtEmail">
+                    </p>
+                    <p>
+                        <label for="phone">Phone</label>
+                        <input type="text" name="txtPhone" id="txtPhone">
+                    </p>
+                    <p>
+                        <label for="message">Message</label>
+                        <textarea name="txtMessage" id="txtMessage"></textarea>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <input type="submit" name="Submit" id="Submit" value="Submit">
+                    </p>
+                </form>
+            </fieldset>
+            
+		</div>
+
+
+	</div>
+
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Контакты</h3>
+				<div class="widget-body">
+					<p>+375 (55) 555-55-55 <br>
+						<a href="mailto:#">flintmail@yandex.ru</a><br>
+						<br>
+						Гомель, ул. Советская 43
+					</p>	
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Подписывайтесь на меня</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+						<a href=""><i class="fa fa-twitter fa-2"></i></a>
+						<a href=""><i class="fa fa-dribbble fa-2"></i></a>
+						<a href=""><i class="fa fa-github fa-2"></i></a>
+						<a href="https://www.facebook.com/alexey.ivanchikov"><i class="fa fa-facebook fa-2"></i></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Какой то текст</h3>
+				<div class="widget-body">
+					<p>Не знаю что тут писать, так что будет просто "♥"</p>
+					<p>Не знаю что тут писать, так что будет просто "♥"</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Обо мне</h3>
+				<div class="widget-body">
+					<p>+375 (55) 555-55-55<br>
+						<a href="mailto:#">flintmail@yandex.ru</a><br>
+						<br>
+						Гомель, ул. Советская 43
+					</p>	
+				</div>
+			</div>
+
+		</div> 
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Гомель, ул. Советская 43</p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2022, malbeeeere<br></p>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</footer>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
